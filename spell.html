@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
+  <link rel="stylesheet" href="main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" />
+  <title>WizardWorld</title>
+  <link rel="icon" href="images/logo_1.jpg" type="image/x-icon" />
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand navTitle" href="spread.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_QBkSyIpy1kR2c9WSRVLizBITSGilAD1hoQ&usqp=CAU" width=20%
+        height=10%></img> WizardWorld</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item itemNav">
+          <a class="nav-link" href="spell.html">Spell</a>
+        </li>
+        <li class="nav-item itemNav">
+          <a class="nav-link" href="potion.html">Potion</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="body1">
+    <!-- Header Section -->
+    <section id="header" class="jumbotron text-center">
+        <h2 class="display-3">WizardWorld</h2>
+        <div>
+            <p class="lead" style="margin-bottom : 0">
+            Wanna share your favorite spell? 
+            </p>
+            <a href="#gallery-title">
+             <i class="fas fa-chevron-down fa-6x gallery-icon"></i>
+            </a>
+        </div>
+    </section>
+  </div>
+
+  <!-- Gallery  -->
+
+  <div id="gallery-title"></div>
+  <div id="" class="gallery-div">
+    <div class="view-div">
+    </div>
+  </div>
+
+  <section id="gallery">
+    <div class="container">
+      <h4 class="font-weight-bold" >Aberto</h4> <br/>
+      <p style="font-size: 15px;"><span class="font-weight-bold">Type: </span> <span style="font-size: 20px; font-style: italic"> Charm </span></p><br/>
+      <p style="font-size: 15px;"><span class="font-weight-bold">Pronunciation: </span> <span style="font-size: 20px; font-style: italic">Ah-bare-toh </span></p><br/>
+      <p style="font-size: 15px;"><span class="font-weight-bold">Description: </span> <span style="font-size: 20px; font-style: italic">A spell used to open doors.</span></p>
+      <div class="line_02"><span>·</span></div><br/>
+    </div>
+    <div class="container">
+      <h4 class="font-weight-bold" >Alarte Ascendare</h4> <br/>
+      <p style="font-size: 15px;"><span class="font-weight-bold">Type: </span> <span style="font-size: 20px; font-style: italic"> Charm </span></p><br/>
+      <p style="font-size: 15px;"><span class="font-weight-bold">Pronunciation: </span> <span style="font-size: 20px; font-style: italic">a-LAR-tay a-SEN-der-ay </span></p><br/>
+      <p style="font-size: 15px;"><span class="font-weight-bold">Description: </span> <span style="font-size: 20px; font-style: italic">Shoots the target high into the air.</span></p>
+      <div class="line_02"><span>·</span></div><br>
+    </div>
+    
+
+  </section>
+  <!-- Footer Section -->
+  <footer>
+    <h1></h1>
+    <a href="#header" class="back-to-top"><i class="fas fa-angle-up fa-4x backToTop"></i></a>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script>
+    $('.navbar-nav>li>a').on('click', function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+
+</html>
