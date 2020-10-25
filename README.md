@@ -1,5 +1,5 @@
 # wizardworld
-![wizard](https://www.pinclipart.com/picdir/middle/198-1987078_hogwarts-logo-png-clipart-background-harry-potter-png.png)
+![wizard](https://w0.pngwave.com/png/868/46/computer-icons-witch-hat-witchcraft-wizard-caps-png-clip-art.png)
 <br/>
 Harry Potter is one of my favorite book series. The magic world is so charming and attractive that I even dreamed of being a witch when I was younger. <br/>
 This year is my first year participated in Hacktoberfest, I decided to build a webpage that is only for this magical world. Here, you can add your favorite spreads or your faviorite magical animals. What you add is not necessarily from Harry Potter, but must be related to the magical world. 
